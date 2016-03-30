@@ -1,0 +1,439 @@
+plot(g)
+plot(g, type="l")
+g <- dgamma(x, 118, 2)
+plot(g, type="l")
+g <- dgamma(x, 2, 118)
+plot(g, type="l")
+plot(g, type="l", xlim=c(0,10))
+plot(g, type="l", xlim=c(0,100))
+g <- pgamma(x, 2, 118)
+plot(g, type="l", xlim=c(0,100))
+g <- dgamma(x, 2, 118)
+plot(g, type="l", xlim=c(0,100))
+g <- pgamma(x, shape=2, rate=118)
+g <- dgamma(x, shape=2, rate=118)
+plot(g, type="l", xlim=c(0,100))
+help(dgamma)
+g <- dgamma(x, 2, rate=1/118)
+plot(g, type="l", xlim=c(0,100))
+g <- dgamma(x, 2, rate=118)
+plot(g, type="l", xlim=c(0,100))
+g <- dgamma(x, 2, scale=118)
+plot(g, type="l", xlim=c(0,100))
+g <- dgamma(x, 2, rate=118)
+plot(g, type="l", xlim=c(0,100))
+g <- pgamma(x, 2, rate=118)
+plot(g, type="l", xlim=c(0,100))
+plot(x, g, type="l", xlim=c(0,100))
+plot(x, g, type="l", xlim=c(0,1)
+)
+g <- dgamma(x, 2, rate=118)
+plot(x, g, type="l", xlim=c(0,1))
+plot(x, g, type="l", xlim=c(0,0.2))
+g <- dgamma(x, 0.5, rate=60)
+plot(x, g, type="l", xlim=c(0,0.2))
+phyper
+phyper?
+;
+phyper help
+phyper ?
+;
+? phyper
+a <- phyper(1,25,5124,100)
+a
+phyper(1,25,5124, 300)
+phyper(1,25,5124, 500)
+phyper(1,25,5124, 300)
+phyper(1,25,5124, 150)
+phyper(1,25,5124, 350)
+phyper(1,25,5124, 320)
+phyper(1,25,5124, 330)
+phyper(1,9495,1871443, 330)
+x = 5.79686562,6.356568621,5.326555949,6.154308632,4.9155054384.8277750554.9214498365.3263008755.1861607626.2856003835.5501129615.471938735.1810812495.0858993445.6228225215.8383490425.9988914084.6892375216.372568037.1197630326.5040638995.6270630626.2178925186.955011483
+x = c(5.79686562,6.356568621,5.326555949,6.154308632,4.915505438,4.827775055,4.921449836,5.326300875,5.186160762,6.285600383,5.550112961,5.47193873,5.181081249,5.085899344,5.622822521,5.838349042,5.998891408,4.689237521,6.37256803,7.119763032,6.504063899,5.627063062,6.217892518,6.955011483)
+c
+x
+y = c(0.009584162,0,0.037892898,0.001001543,0.02283946,0.03326949,0.029295088,0.007644999,0.007531443,0.016792903,0.001419081,0.014251524,0.003876157,0.006533738,0.015517832,0.003855659,0,0.010022922,0.000317349,0.009415972,7.58043E-05,0.006255827,0,0)
+y
+plot(x,y, type=l)
+plot(x,y, type=1)
+plot(x,y)
+plot(x,y, pch=1)
+plot(x,y, pch=2)
+plot(x,y, pch=3)
+plot(x,y, pch=4)
+plot(x,y, pch=5)
+plot(x,y, pch=5, col=blue)
+plot(x,y, pch=5, col="blue")
+plot(x,y, pch=5, col="blue", cex=0.4)
+plot(x,y, pch=5, col="blue", cex=2)
+plot(x,y, pch=5, col="blue", cex=1)
+fit <- glm(y~x)#
+co <- coef(fit)#
+abline(fit, col="blue", lwd=2)
+package(?)
+install.package()
+install.package
+install.package(?)
+install()
+install(?)
+library()
+install()
+install.packages
+install.packages()
+install.packages(MCMCpack)
+install.packages()
+library(gtools)
+ddirchlet()
+ddirichlet()
+x <- c(0.25,0.25,0.25,0.25)
+k <- c(1,1/3,1/3,1/3)
+ddirichlet(x, k)
+results <- ddirichlet(x, k)
+results
+seq <- c(0,0.25, 0.5, 1.0)
+?rdirichlet
+f <- rdirichlet(x,k)
+f
+sum(f)
+plot(f)
+library(bayesm)
+install.packages
+install.packages()
+library(bayesm)
+clear()
+close(gtools)
+close
+close(rdirichlet)
+close(rdirichlet())
+x1 <- rgamma(10,1,1)
+x2 <- rgamma(10,1,1)
+x3 <- rgamma(10,1,1)
+x4 <- rgamma(10,1,1)
+s <- x1 + x2 + x3 + x4
+d <- c(x1/s, x2/s, x3/s, x4/s)
+d
+dim(d) <- c(10,4)
+d
+source("Documents/R_scripts/stats.R")
+Dirichlet(1,1,1,1)
+Dirichlet(100,100,100,100)
+Dirichlet(1000000,1000000,1000000,1000000)
+Dirichlet(1,1/3,1/3,1/3)
+source("Documents/R_scripts/stats.R")
+PlotDirichlet(1,1,1,1)
+PlotDirichlet(10,10,10,10)
+PlotDirichlet(100,100,100,100)
+PlotDirichlet(2,3,3,2)
+PlotDirichlet(100,100,100,100)
+PlotDirichlet(2,3,3,2)
+PlotDirichlet(1,1,1,1)
+PlotDirichlet(1,0.33,0.33,0.33
+)
+PlotDirichlet(0.33,0.33,0.33,0.33)
+source("Documents/R_scripts/stats.R")
+Dirichlet(1,1,1,1,1,1)
+Dirichlet(1000,4000,1000,4000,1000,4000)
+source("Documents/R_scripts/stats.R")
+Dirichlet
+Dirichlet(1,1,1,1,1,1)
+Dirichlet(1,1/3,1/3,1/3,0,0)
+PlotDirichlet(1,1/3,1/3,1/3)
+x <- seq(0.0,1.0,0.01)
+y <- dbeta(x,3,3)
+plot(x, y, type="l")
+y <- dbeta(x,1,1)
+plot(x, y, type="l")
+y <- dbeta(x,1,3)
+plot(x, y, type="l")
+y <- dbeta(x,1,30)
+plot(x, y, type="l")
+y <- dbeta(x,1,2)
+plot(x, y, type="l")
+PlotDirichlet(1,1/3,1/3,1/3)
+library(ape)
+install.pacakges("ape")
+install.packages("ape")
+library(ape)
+tree <- read.nexus("test_mutpath_yam_aaMapped.tre")
+tree <- read.nexus("test_mutpath_vic_aaMapped.tre")
+tree <- read.nexus("test_mutpath_yam_aaMapped_edited.nex")
+write.nexus(tree, file="test_mutpath_yam_aaMapped_edited2.nex")
+library(Outbreaktools)
+library(OutbreakTools)
+tre <- read.annotated.nexus("translated_test_mutpath_vic_aaMapped.tre")
+tre <- read.annotated.nexus("translated_test_mutpath_vic_aaMapped.tre")
+read.annotated.nexus
+X <- scan(file = "example_NEXUS_tre.nex", what = "", sep = "\n", quiet = TRUE)#
+    LEFT <- grep("\\[", X)#
+    RIGHT <- grep("\\]", X)#
+    endblock <- grep("END;|ENDBLOCK;", X, ignore.case = TRUE)#
+    semico <- grep(";", X)#
+    i1 <- grep("BEGIN TREES;", X, ignore.case = TRUE)#
+    i2 <- grep("TRANSLATE", X, ignore.case = TRUE)#
+    translation <- if (length(i2) == 1 && i2 > i1) #
+        TRUE#
+    else FALSE#
+    if (translation) {#
+        end <- semico[semico > i2][1]#
+        x <- X[(i2 + 1):end]#
+        x <- unlist(strsplit(x, "[,; \t]"))#
+        x <- x[nzchar(x)]#
+        TRANS <- matrix(x, ncol = 2, byrow = TRUE)#
+        TRANS[, 2] <- gsub("['\"]", "", TRANS[, 2])#
+        n <- dim(TRANS)[1]#
+    }#
+    start <- if (translation) #
+        semico[semico > i2][1] + 1#
+    else semico[semico > i1][1]
+X <- scan(file = "example_NEXUS_tre.nex", what = "", sep = "\n", quiet = TRUE)#
+    LEFT <- grep("\\[", X)#
+    RIGHT <- grep("\\]", X)#
+    endblock <- grep("END;|ENDBLOCK;", X, ignore.case = TRUE)#
+    semico <- grep(";", X)#
+    i1 <- grep("BEGIN TREES;", X, ignore.case = TRUE)#
+    i2 <- grep("TRANSLATE", X, ignore.case = TRUE)#
+    translation <- if (length(i2) == 1 && i2 > i1) #
+        TRUE#
+    else FALSE
+X <- scan(file = "example_NEXUS_tre.nex", what = "", sep = "\n", quiet = TRUE)#
+    LEFT <- grep("\\[", X)#
+    RIGHT <- grep("\\]", X)#
+    endblock <- grep("END;|ENDBLOCK;", X, ignore.case = TRUE)#
+    semico <- grep(";", X)#
+    i1 <- grep("BEGIN TREES;", X, ignore.case = TRUE)#
+    i2 <- grep("TRANSLATE", X, ignore.case = TRUE)#
+    translation <- if (length(i2) == 1 && i2 > i1) #
+        TRUE
+start <- if (translation) #
+        semico[semico > i2][1] + 1
+semico
+semico
+tre <- read.annotated.nexus("translated_test_mutpath_vic_aaMapped.tre")
+tre <- read.annotated.nexus("translated_test_mutpath_vic_aaMapped.tre")
+tre <- read.annotated.nexus("translated_test_mutpath_vic_aaMapped.tre")
+X <- scan(file = "translated_test_mutpath_vic_aaMapped.tre", what = "", sep = "\n", quiet = TRUE)#
+    LEFT <- grep("\\[", X)#
+    RIGHT <- grep("\\]", X)#
+    endblock <- grep("END;|ENDBLOCK;", X, ignore.case = TRUE)#
+    semico <- grep(";", X)#
+    i1 <- grep("BEGIN TREES;", X, ignore.case = TRUE)#
+    i2 <- grep("TRANSLATE", X, ignore.case = TRUE)#
+    translation <- if (length(i2) == 1 && i2 > i1) #
+        TRUE#
+    else FALSE#
+    if (translation) {#
+        end <- semico[semico > i2][1]#
+        x <- X[(i2 + 1):end]#
+        x <- unlist(strsplit(x, "[,; \t]"))#
+        x <- x[nzchar(x)]#
+        TRANS <- matrix(x, ncol = 2, byrow = TRUE)#
+        TRANS[, 2] <- gsub("['\"]", "", TRANS[, 2])#
+        n <- dim(TRANS)[1]#
+    }
+X <- scan(file = "translated_test_mutpath_vic_aaMapped.tre", what = "", sep = "\n", quiet = TRUE)#
+    LEFT <- grep("\\[", X)#
+    RIGHT <- grep("\\]", X)#
+    endblock <- grep("END;|ENDBLOCK;", X, ignore.case = TRUE)#
+    semico <- grep(";", X)#
+    i1 <- grep("BEGIN TREES;", X, ignore.case = TRUE)#
+    i2 <- grep("TRANSLATE", X, ignore.case = TRUE)#
+    translation <- if (length(i2) == 1 && i2 > i1) #
+        TRUE#
+#
+    if (translation) {#
+        end <- semico[semico > i2][1]#
+        x <- X[(i2 + 1):end]#
+        x <- unlist(strsplit(x, "[,; \t]"))#
+        x <- x[nzchar(x)]#
+        TRANS <- matrix(x, ncol = 2, byrow = TRUE)#
+        TRANS[, 2] <- gsub("['\"]", "", TRANS[, 2])#
+        n <- dim(TRANS)[1]#
+    }
+start <- if (translation) #
+        semico[semico > i2][1] + 1
+translation
+end <- endblock[endblock > i1][1] - 1#
+    tree <- X[start:end]
+rm(X)#
+    tree <- tree[tree != ""]#
+    semico <- grep(";", tree)#
+    Ntree <- length(semico)
+if (Ntree == 1 && length(tree) > 1) #
+        STRING <- paste(tree, collapse = "")
+rm(tree)
+STRING <- STRING[grep("^[[:blank:]]*tree.*= *", STRING, ignore.case = TRUE)]
+library(adegenet)
+STRING <- STRING[grep("^[[:blank:]]*tree.*= *", STRING, ignore.case = TRUE)]
+tree <- tree[tree != ""]#
+    semico <- grep(";", tree)#
+    Ntree <- length(semico)#
+    if (Ntree == 1 && length(tree) > 1) #
+        STRING <- paste(tree, collapse = "")#
+    else {#
+        if (any(diff(semico) != 1)) {#
+            STRING <- character(Ntree)#
+            s <- c(1, semico[-Ntree] + 1)#
+            j <- mapply(":", s, semico)#
+            if (is.list(j)) {#
+                for (i in 1:Ntree) STRING[i] <- paste(tree[j[[i]]], #
+                  collapse = "")#
+            }#
+            else {#
+                for (i in 1:Ntree) STRING[i] <- paste(tree[j[, #
+                  i]], collapse = "")#
+            }#
+        }#
+        else STRING <- tree#
+    }
+tree <- tree[tree != ""]#
+    semico <- grep(";", tree)#
+    Ntree <- length(semico)#
+    if (Ntree == 1 && length(tree) > 1) #
+        STRING <- paste(tree, collapse = "")
+rm(tree)#
+    STRING <- STRING[grep("^[[:blank:]]*tree.*= *", STRING, ignore.case = TRUE)]#
+    Ntree <- length(STRING)#
+    STRING <- gsub("\\[&R\\]", "", STRING)#
+    nms.trees <- sub(" *= *.*", "", STRING)#
+    nms.trees <- sub("^ *tree *", "", nms.trees, ignore.case = TRUE)#
+    STRING <- sub("^.*?= *", "", STRING)#
+    STRING <- gsub("\\s", "", STRING)#
+    colon <- grep(":", STRING)
+if (Ntree == 1 && length(tree) > 1) #
+        STRING <- paste(tree, collapse = "")
+STRING <- STRING[grep("^[[:blank:]]*tree.*= *", STRING, ignore.case = TRUE)]#
+    Ntree <- length(STRING)#
+    STRING <- gsub("\\[&R\\]", "", STRING)#
+    nms.trees <- sub(" *= *.*", "", STRING)#
+    nms.trees <- sub("^ *tree *", "", nms.trees, ignore.case = TRUE)#
+    STRING <- sub("^.*?= *", "", STRING)#
+    STRING <- gsub("\\s", "", STRING)#
+    colon <- grep(":", STRING)
+if (Ntree == 1 && length(tree) > 1) #
+        STRING <- paste(tree, collapse = "")
+count(Ntree)
+Ntree
+semico <- grep(";", tree)
+X <- scan(file = "translated_test_mutpath_vic_aaMapped.tre", what = "", sep = "\n", quiet = TRUE)#
+    LEFT <- grep("\\[", X)#
+    RIGHT <- grep("\\]", X)#
+    endblock <- grep("END;|ENDBLOCK;", X, ignore.case = TRUE)#
+    semico <- grep(";", X)#
+    i1 <- grep("BEGIN TREES;", X, ignore.case = TRUE)#
+    i2 <- grep("TRANSLATE", X, ignore.case = TRUE)#
+    translation <- if (length(i2) == 1 && i2 > i1) #
+        TRUE
+if (translation) {#
+        end <- semico[semico > i2][1]#
+        x <- X[(i2 + 1):end]#
+        x <- unlist(strsplit(x, "[,; \t]"))#
+        x <- x[nzchar(x)]#
+        TRANS <- matrix(x, ncol = 2, byrow = TRUE)#
+        TRANS[, 2] <- gsub("['\"]", "", TRANS[, 2])#
+        n <- dim(TRANS)[1]#
+    }#
+    start <- if (translation) #
+        semico[semico > i2][1] + 1
+end <- endblock[endblock > i1][1] - 1#
+    tree <- X[start:end]#
+    rm(X)#
+    tree <- tree[tree != ""]#
+    semico <- grep(";", tree)#
+    Ntree <- length(semico)
+Ntree
+semico
+semico[semico > i2][1] + 1
+i2
+end
+length(semico)
+end
+semico[semico > i2][1]
+i1 <- grep("BEGIN TREES;", X, ignore.case = TRUE)#
+    i2 <- grep("TRANSLATE", X, ignore.case = TRUE)#
+    translation <- if (length(i2) == 1 && i2 > i1)
+]
+X <- scan(file = "translated_test_mutpath_vic_aaMapped.tre", what = "", sep = "\n", quiet = TRUE)#
+    LEFT <- grep("\\[", X)#
+    RIGHT <- grep("\\]", X)#
+    endblock <- grep("END;|ENDBLOCK;", X, ignore.case = TRUE)#
+    semico <- grep(";", X)#
+    i1 <- grep("BEGIN TREES;", X, ignore.case = TRUE)#
+    i2 <- grep("TRANSLATE", X, ignore.case = TRUE)#
+    translation <- if (length(i2) == 1 && i2 > i1) #
+        TRUE
+if (translation) {#
+        end <- semico[semico > i2][1]#
+        x <- X[(i2 + 1):end]#
+        x <- unlist(strsplit(x, "[,; \t]"))#
+        x <- x[nzchar(x)]#
+        TRANS <- matrix(x, ncol = 2, byrow = TRUE)#
+        TRANS[, 2] <- gsub("['\"]", "", TRANS[, 2])#
+        n <- dim(TRANS)[1]#
+    }
+semico
+start <- if (translation) #
+        semico[semico > i2][1] + 1
+start
+end
+tree <- X[start:end]
+tree
+tree <- tree[tree != ""]
+semico <- grep(";", tree)#
+    Ntree <- length(semico)
+Ntree
+if (Ntree == 1 && length(tree) > 1) #
+        STRING <- paste(tree, collapse = "")
+STRING <- STRING[grep("^[[:blank:]]*tree.*= *", STRING, ignore.case = TRUE)]#
+    Ntree <- length(STRING)#
+    STRING <- gsub("\\[&R\\]", "", STRING)#
+    nms.trees <- sub(" *= *.*", "", STRING)#
+    nms.trees <- sub("^ *tree *", "", nms.trees, ignore.case = TRUE)#
+    STRING <- sub("^.*?= *", "", STRING)#
+    STRING <- gsub("\\s", "", STRING)#
+    colon <- grep(":", STRING)
+length(colon)
+trees <- lapply(STRING, .annotated.tree.build)
+if (!length(colon)) {#
+        stop(".annotated.clado.build is not yet implemented.\n")#
+        trees <- lapply(STRING, .annotated.clado.build)#
+    }
+else if (length(colon) == Ntree) {#
+        trees <- lapply(STRING, .annotated.tree.build)#
+    }
+if (length(colon) == Ntree) {#
+        trees <- lapply(STRING, .annotated.tree.build)#
+    }
+if (Ntree == 1) {#
+        trees <- trees[[1]]#
+        if (translation) {#
+            trees$tip.label <- if (length(colon)) #
+                TRANS[, 2]#
+            else TRANS[, 2][as.numeric(trees$tip.label)]#
+        }#
+    }
+annotate
+tre <- read.annotated.nexus("translated_test_mutpath_vic_aaMapped.tre")
+tre <- read.annotated.nexus("test.tre")
+tree <- ladderize(tre)
+names(tre)
+class(tre$annotations)
+length(tre$annotations)
+corrected_rates <- unlist(sapply(tre$annotations, function(e) e$corrected_aa_rate))
+corrected_rates
+plot(tre, show.tip=FALSE, edge.col=num2col(rates, col.pal=seasun))
+plot(tre, show.tip=FALSE, edge.col=num2col(corrected_aa_rates, col.pal=seasun))
+plot(tre, show.tip=FALSE, edge.col=num2col(corrected_rates, col.pal=seasun))
+plot(tre, show.tip=FALSE, edge.col=num2col(corrected_rates, col.pal=seasun), no.margin.F)
+plot(tre, show.tip=FALSE, edge.col=num2col(corrected_rates, col.pal=seasun), no.margin=T)
+plot(tre, show.tip=FALSE, edge.col=num2col(corrected_rates, col.pal=seasun), no.margin=T)
+plotggph(tre, show.tip=FALSE, edge.col=num2col(corrected_rates, col.pal=seasun), no.margin=T)
+plotggphy(tre, show.tip=FALSE, edge.col=num2col(corrected_rates, col.pal=seasun), no.margin=T)
+heat.colors
+plotggphy(tre, show.tip=FALSE, edge.col=num2col(corrected_rates, col.pal=heat.colors), no.margin=T)
+plot(tre, show.tip=FALSE, edge.col=num2col(corrected_rates, col.pal=heat.colors), no.margin=T)
+.annotated.tree.build
+.annotated.tree.build()
+lapply
+tre <- read.annotated.nexus("translated_test.tre")
+tre <- read.annotated.nexus("translated_test.tre")

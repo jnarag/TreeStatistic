@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="clusterByTime">
+    <output-path>$PROJECT_DIR$/out/artifacts/clusterByTime</output-path>
+    <root id="archive" name="clusterByTime.jar">
+      <element id="module-output" name="TreeStatistic" />
+    </root>
+  </artifact>
+</component>
